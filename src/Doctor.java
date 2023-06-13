@@ -10,13 +10,14 @@ public class Doctor extends Persona{
 
     //Constructor con extends Persona
 
-    public Doctor(int ci, String nombre, String apellido, String direccion, String telefono, String especialidad, int codigo, String horario, String hosptal) {
-        super(ci, nombre, apellido, direccion, telefono);
+    public Doctor(int ci, String nombre, String apellido, String direccion, String telefono, String signo, int edad, String oficio, String especialidad, int codigo, String horario, String hosptal) {
+        super(ci, nombre, apellido, direccion, telefono, signo, edad, oficio);
         this.especialidad = especialidad;
         this.codigo = codigo;
         this.horario = horario;
         this.hosptal = hosptal;
     }
+
 
     //Setter y Getter
 

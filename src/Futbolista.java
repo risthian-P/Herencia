@@ -3,6 +3,7 @@ public class Futbolista extends Persona{
     private String posicion;
     private int num_camiseta;
     private String representante;
+    private int horas;
 
     public Futbolista(){
         super();
@@ -10,13 +11,15 @@ public class Futbolista extends Persona{
 
     //Constructor con extends Persona
 
-    public Futbolista(int ci, String nombre, String apellido, String direccion, String telefono, String equipo, String posicion, int num_camiseta, String representante) {
-        super(ci, nombre, apellido, direccion, telefono);
+    public Futbolista(int ci, String nombre, String apellido, String direccion, String telefono, String signo, int edad, String oficio, String equipo, String posicion, int num_camiseta, String representante, int horas) {
+        super(ci, nombre, apellido, direccion, telefono, signo, edad, oficio);
         this.equipo = equipo;
         this.posicion = posicion;
         this.num_camiseta = num_camiseta;
         this.representante = representante;
+        this.horas = horas;
     }
+
 
     //Setter y Getter
 
@@ -52,6 +55,13 @@ public class Futbolista extends Persona{
         this.representante = representante;
     }
 
+    public int getHoras() {
+        return horas;
+    }
+
+    public void setHoras(int horas) {
+        this.horas = horas;
+    }
     //metodos
 
     public void correr(){

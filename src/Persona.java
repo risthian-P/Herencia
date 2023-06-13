@@ -4,6 +4,9 @@ public class Persona {
     private String apellido;
     private String direccion;
     private String telefono;
+    private String signo;
+    private int edad;
+    private String oficio;
 
     //Segundo constructor
 
@@ -13,13 +16,17 @@ public class Persona {
 
     //Constructor con extends Persona
 
-    public Persona(int ci, String nombre, String apellido, String direccion, String telefono) {
+    public Persona(int ci, String nombre, String apellido, String direccion, String telefono, String signo, int edad, String oficio) {
         this.ci = ci;
         this.nombre = nombre;
         this.apellido = apellido;
         this.direccion = direccion;
         this.telefono = telefono;
+        this.signo = signo;
+        this.edad = edad;
+        this.oficio = oficio;
     }
+
 
     //Setter y Getter
 
@@ -61,6 +68,30 @@ public class Persona {
 
     public void setTelefono(String telefono) {
         this.telefono = telefono;
+    }
+
+    public String getSigno() {
+        return signo;
+    }
+
+    public void setSigno(String signo) {
+        this.signo = signo;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public String getOficio() {
+        return oficio;
+    }
+
+    public void setOficio(String oficio) {
+        this.oficio = oficio;
     }
 
     //Funciones

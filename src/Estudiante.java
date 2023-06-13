@@ -10,21 +10,14 @@ public class Estudiante extends Persona{
 
     //Constructor con extends Persona
 
-    public Estudiante(int ci,
-                      String nombre,
-                      String apellido,
-                      String direccion,
-                      String telefono,
-                      int codigo,
-                      String correo,
-                      String semestre,
-                      String carrera) {
-        super(ci, nombre, apellido, direccion, telefono);
+    public Estudiante(int ci, String nombre, String apellido, String direccion, String telefono, String signo, int edad, String oficio, int codigo, String correo, String semestre, String carrera) {
+        super(ci, nombre, apellido, direccion, telefono, signo, edad, oficio);
         this.codigo = codigo;
         this.correo = correo;
         this.semestre = semestre;
         this.carrera = carrera;
     }
+
 
     //Setter y Getter
 

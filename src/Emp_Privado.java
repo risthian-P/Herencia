@@ -8,17 +8,12 @@ public class Emp_Privado extends Persona{
 
     //Constructor con extends Persona
 
-    public Emp_Privado(int ci,
-                       String nombre,
-                       String apellido,
-                       String direccion,
-                       String telefono,
-                       String puesto,
-                       String cargo) {
-        super(ci, nombre, apellido, direccion, telefono);
+    public Emp_Privado(int ci, String nombre, String apellido, String direccion, String telefono, String signo, int edad, String oficio, String puesto, String cargo) {
+        super(ci, nombre, apellido, direccion, telefono, signo, edad, oficio);
         this.puesto = puesto;
         this.cargo = cargo;
     }
+
 
     //Setter y Getter
 
