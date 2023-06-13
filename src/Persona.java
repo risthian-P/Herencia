@@ -5,6 +5,8 @@ public class Persona {
     private String direccion;
     private String telefono;
 
+    //Segundo constructor
+
     public Persona(){
 
     }

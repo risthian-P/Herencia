@@ -4,12 +4,12 @@ public class Menu {
                 "Juan",
                 "Perez",
                 "Colombia",
-                "0912345678");
+                "0912345678"); //Pueden ser valores nulos con 0 y ""
 
-        Persona Pedro = new Persona();
+        Persona Pedro = new Persona(); //para que esten vacios se debe crear un constructor sin valores, despues del primer constructor, ejemplo en clase Persona line 10
         System.out.println(mipersona.getCi());
         System.out.println(Pedro.getCi());
-
+        Emp_Privado Cristhian2 = new Emp_Privado();
         Estudiante Cristhian = new Estudiante(1751555010,
                 "Cristhian",
                 "Pañora",
@@ -20,6 +20,9 @@ public class Menu {
                 "Tercer",
                 "TSDS");
 
+        Cristhian.caminar();
+        Cristhian.estudiar();
+        Cristhian.trabajar();
     }
 
 }
