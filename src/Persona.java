@@ -9,7 +9,7 @@ public class Persona {
 
     }
 
-    //Constructor
+    //Constructor con extends Persona
 
     public Persona(int ci, String nombre, String apellido, String direccion, String telefono) {
         this.ci = ci;
@@ -20,6 +20,7 @@ public class Persona {
     }
 
     //Setter y Getter
+
     public int getCi() {
         return ci;
     }
@@ -63,5 +64,8 @@ public class Persona {
     //Funciones
     public void caminar(){
         System.out.println("Este es el metodo de caminar");
+    }
+    public void trabajar(){
+        System.out.println("Este es el metodo de trabajar");
     }
 }

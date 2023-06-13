@@ -8,6 +8,8 @@ public class Estudiante extends Persona{
         super();
     }
 
+    //Constructor con extends Persona
+
     public Estudiante(int ci,
                       String nombre,
                       String apellido,
@@ -60,7 +62,13 @@ public class Estudiante extends Persona{
 
     //metodos
 
-    public void estudiar(){}
-    public void leer(){}
-    public void memorizar(){}
+    public void estudiar(){
+        System.out.println("Este es el metodo de estudiar");
+    }
+    public void leer(){
+        System.out.println("Este es el metodo de leer");
+    }
+    public void memorizar(){
+        System.out.println("Este es el metodo de memorizar");
+    }
 }
