@@ -5,6 +5,10 @@ public class Persona {
     private String direccion;
     private String telefono;
 
+    public Persona(){
+
+    }
+
     //Constructor
 
     public Persona(int ci, String nombre, String apellido, String direccion, String telefono) {
